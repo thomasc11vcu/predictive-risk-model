@@ -42,6 +42,39 @@ Visualization of key predictors through Streamlit interface
 
 Achieved ~12% improvement in predictive accuracy over baseline regression models.
 
+📦 Deployment
+
+Run locally:
+
+make install
+make run
+# app opens at http://localhost:8501
+
+
+Run with Docker:
+
+docker build -t predictive-risk-model .
+docker run --rm -p 8501:8501 predictive-risk-model
+
+🔍 Example Use Cases
+
+Modeling preterm birth risk factors using environmental data
+
+Predicting financial volatility or credit risk using interpretable ML
+
+Educational tool for applied AI and quantitative research training
+
+👩🏽‍💻 Author
+
+Courtney [Last Name]
+Undergraduate Researcher – Data Science & Machine Learning
+Virginia Commonwealth University
+🔗 LinkedIn
+ | 💻 GitHub
+
+💬 Interview Talking Point
+
+“This project bridges explainable AI with quantitative modeling—using real and simulated data to forecast multi-factor risk and visualize model interpretability.”
 Identified significant predictors of gestational and risk-related outcomes.
 
 Validated framework’s scalability to financial risk datasets.
